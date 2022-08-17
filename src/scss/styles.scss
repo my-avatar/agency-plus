@@ -3,13 +3,13 @@
 //
 
 // Import variables
-@import "./variables.scss";
+@import "variables";
 
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
 
 // Global CSS
-@import "./global.scss";
+@import "global";
 
 // Components
 @import "./components/buttons.scss";

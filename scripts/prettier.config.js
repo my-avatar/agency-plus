@@ -1,4 +1,1 @@
-module.exports = {
-	plugins: [require('@prettier/plugin-pug')],
-	...require('@sapphire/prettier-config')
-};
+module.exports = require('@sapphire/prettier-config')

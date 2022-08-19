@@ -1,34 +1,30 @@
-# [Start Bootstrap - Agency](https://startbootstrap.com/theme/agency)
+# [My Avatar - Agency Plus](https://github.com/my-avatar/agency-plus)
 
-[Agency](https://startbootstrap.com/theme/agency) is a one page, agency portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid, modal windows for each portfolio item, and a working PHP based contact form.
+[Agency Plus](https://github.com/my-avatar/agency-plus) is a react bootstrap theme built on the top of [Agency](https://startbootstrap.com/theme/agency) theme and with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections and a responsive portfolio grid
 
-## Preview
+![Version badge](https://img.shields.io/github/package-json/v/my-avatar/agency-plus?style=flat-square) ![License badge](https://img.shields.io/github/license/my-avatar/agency-plus?style=flat-square)
 
-[![Agency Preview](https://assets.startbootstrap.com/img/screenshots/themes/agency.png)](https://startbootstrap.github.io/startbootstrap-agency/)
+[![Agency Preview](https://user-images.githubusercontent.com/105888199/185176668-af8f1722-ab0a-4d8f-8f27-92956d025380.PNG)](https://startbootstrap.github.io/startbootstrap-agency/)
 
 **[View Live Preview](https://startbootstrap.github.io/startbootstrap-agency/)**
 
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-agency/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-agency/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-agency)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-agency/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-agency?type=dev)
-
 ## Download and Installation
 
-To begin using this template, choose one of the following options to get started:
+To begin using this template, following steps to get started:
 
-- [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/agency)
-- Install using npm: `npm i startbootstrap-agency`
-- Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-agency.git`
-- [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-agency)
+- Install using npm: `npm i bootstrap react-bootstrap @my-avatar/agency-plus`
 
 ## Usage
 
-### Basic Usage
+### Style
 
-After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+After downloading, simply edit your main SCSS file
+
+```scss
+@import '@my-avatar/agency-plus/assets/scss/main.scss';
+```
+
+Si vous avez déjà importé Bootstrap, supprimez son importation, Agency Plus l'importe nativement
 
 ### Advanced Usage
 
